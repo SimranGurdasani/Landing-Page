@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.d-flex{
+    flex-direction: row;
+}
+
+.d-col{
+    flex-direction: column;
+}
+
+.navbar{
+    padding: 12px 112px 0 112px;
+}
+
+.navbar-collapse{
+    /* margin-left: 12%; */
+    position: relative;
+    left: 7%;
+}
+
+.nav-item{
+    margin-left: 26px;
+}
+
+.nav-item>div>img{
+    object-fit: contain;
+}
+
+.navbar>form{
+    width: 23%;
+    margin-left: 56px;
+}
+
+#notify{
+    margin-left: 18px;
+}
+
+.input-group>input{
+    border-radius: 8px 0 0 8px;
+}
+
+.input-group-text{
+    height: 36px;
+    background-color: #8064A2 !important;
+    border-radius: 0 8px 8px 0 !important;
+}
+
+#sign-in{
+    margin-left: 23px;
+    width: 131%;
+    border: 1px solid black;
+}
+
+/* home */
+.heading{
+    font-family: "Poppins",sans-serif;
+font-size: 36px;
+font-style: italic;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.wrapper{
+    padding: 83px 112px 83px 112px;
+    background-color: #F7F5F9;
+}
+
+.left{
+    flex-basis:57%;
+    flex:1;
+    padding: 31px;
+}
+
+.home-content{
+    font-family: "Poppins",sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+.right{
+    flex-basis: 41%;
+    padding: 31px;
+}
+
+.register{
+    font-family: "Poppins",sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+
+}
+
+.buttons-child{
+    text-align: start;
+    border: 1px solid black;
+    align-items: center;
+    /* height: 36px; */
+    padding: 9px 24px 9px 24px;
+    border-radius: 8px;
+    margin-bottom: 21px;
+}
+
+.buttons-child>div{
+    width: 27%;
+    line-height: 2px;
+}
+
+.buttons-child>p{
+    margin: 0;
+}
+
+form>input{
+    width: 100%;
+}
+
+.cards{
+    padding: 91px;
+}
+
+.cards>div{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 46px;
+}
+
+.card>div>div{
+    margin-right: 20px;
+}
+
+.card>div>p{
+    width: 89%;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 20px;
+    flex-basis: 45%;
+    height: 240px;
+    flex-basis: 38%;
+    border: 1px solid black;
+    padding: 36px;
+}
+
+.card>button{
+    background-color: transparent;
+}
+
+.add-container{
+    background-color:  #F7FDFF;
+    padding: 10%;
+    justify-content: center;
+    display: flex;
+}
+
+.add-card{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 36px;
+    width: 100%;
+    height: 225px;
+}
+
+.add-container>div{
+    width: 80%;
+}
+
+.add-card>button{
+    background-color: transparent;
+}
+
+.add-card>div>div{
+    width: 4%;
+}
+
+.add-card>div>div>img{
+    width: 69%;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 6%; */
+    margin: 10% 0 10% 0;
+}
+
+.testimonial{
+    width: 70%;
+    padding: 35px;
+    border: 1px solid black;
+    background-color: #F7F5F9;
+    border-radius: 8px;
+}
+
+.audio-track{
+    width: 56%;
+    flex: 1;
+    margin-right: 100px;
+}
+
+.audio-track>img{
+    width: 100%;
+}
+
+.dancer-profile{
+    width: 33%;
+}
+
+.dancer-profile>img{
+    width: 100%;
+}
+
+.dancer-data{
+    padding: 17px;
+}
+
+.dancer-data>p{
+    margin: 0;
+}
+
+
+.cta{
+    padding: 6%;
+    background-color: #F7FDFF;
+}
+
+.cta>h2{
+    margin-bottom: 31px;
+}
+
+/* Footer section styling starts here */
+.footer-tagline {
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    left: 30px;
+    top: -15px;
+  }
+  .footer-section {
+    background-color: white;
+    padding: 40px;
+    font-size: 1.12em;
+  }
+  .social-icons {
+    list-style-type: none;
+    padding: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+  }
+  .footer-menu a {
+    list-style: disc;
+    text-decoration: none;
+    color: black;
+  }
+  .address-text {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    background-color: #edd1c0;
+    margin: auto;
+  }
+  .subscribe-btn {
+    background-color: #182825;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    height: 45px;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    margin-left: 5%;
+  }
+  /* Footer section styling ends here */
