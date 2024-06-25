@@ -19,6 +19,7 @@
 
 .navbar-collapse{
     /* margin-left: 12%; */
+    width: 100%;
     position: relative;
     left: 7%;
 }
